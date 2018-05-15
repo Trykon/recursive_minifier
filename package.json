@@ -1,13 +1,13 @@
 {
   "name": "recursive_minifier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "recursive_minifier is package that will minify(uglify, compress) all js (including es6+) and css ## Installation ``` npm install recursive_minifier ``` ## Usage ``` node minify.js \"path/to/minify\" ``` it is that simple ### Maintenance Most probably I will not answet to issues, though if I spot an issue I will fix everything what is needed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Trykon",
+  "license": "MIT",
   "dependencies": {
     "fs-readdir-recursive": "^1.1.0",
     "minify": "^3.0.5",
