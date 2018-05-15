@@ -1,0 +1,17 @@
+{
+  "name": "recursive_minifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-readdir-recursive": "^1.1.0",
+    "minify": "^3.0.5",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.3.25"
+  }
+}
