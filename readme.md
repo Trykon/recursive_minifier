@@ -1,5 +1,9 @@
 # Intro
 recursive_minifier is package that will minify(uglify, compress) all js (including es6+) and css
+## Installation
+```
+npm install recursive_minifier
+```
 ## Usage
 ```
 node minify.js "path/to/minify"
