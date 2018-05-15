@@ -8,6 +8,9 @@ npm install recursive_minifier
 ```
 node minify.js "path/to/minify"
 ```
-it is that simple
+It is that simple. Eventually if you install like most users would do it would look like this instead:
+```
+node ./node_modules/recursive_minifier/minify.js
+```
 ### Maintenance
 Most probably I will not answet to issues, though if I spot an issue I will fix everything what is needed.
