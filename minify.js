@@ -17,7 +17,7 @@ function uglifyFile(tempItem) {
 }
 
 function minFile(tempItem) {
-  if(/(.+\.((js)|(css)))/i.test(item)&&!(/(\.json)/i.test(item))&&!(/(minify\.json)/i.test(item)))
+  if(/(.+\.((js)|(css)))/i.test(item)&&!(/(\.json)/i.test(item))&&!(/(minify\.js)/i.test(item)))
   {
     minify(tempItem, (error, data) => {
       console.log(tempItem);
